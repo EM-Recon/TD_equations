@@ -4,8 +4,10 @@ public class EqResoudre {
     public EqResoudre() {
     }
 
-    private String pattern = "([-+]?[0-9][xX]? [-+/*] [0-9] [=] ([0-9]|[0-9][0-9]))";
+    private String pattern = "[-+]?[0-9][xX]? [-+/*] [0-9] [=] [0-9][0-9]?";
     public String  resoudre (String equation) {
+        String [] t =  equation.split(" ");
+        int a
 
         return "Ok";
     }
