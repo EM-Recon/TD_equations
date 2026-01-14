@@ -14,14 +14,6 @@ import java.util.ResourceBundle;
 public class MainController implements Initializable {
 
 
-    public TextField getTextFieldequation() {
-        return textFieldequation;
-    }
-
-    public void setTextFieldequation(TextField textFieldequation) {
-        this.textFieldequation = textFieldequation;
-    }
-
     @FXML
     private Label labelResultat;
     @FXML
