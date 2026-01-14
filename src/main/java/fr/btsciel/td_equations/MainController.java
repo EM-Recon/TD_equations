@@ -16,8 +16,9 @@ public class MainController implements Initializable {
 
     @FXML
     private Label labelResultat;
-    @FXML
+
     private EqResoudre eqResoudre = new EqResoudre();
+
     @FXML
     private TextField textFieldequation;
 
